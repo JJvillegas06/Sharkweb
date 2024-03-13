@@ -35,15 +35,15 @@ p.texto-introduccion{
 h2.especies{
     font-size: 25px;
 }
-.informacion li {
-    display: inline block;
-    vertical-align: top;
-   
-}
+
 
 ul li img{
     width: 250px;
 }
 
+.informacion{
+    width: 250px;
+    text-align: center;
+}
 
 
