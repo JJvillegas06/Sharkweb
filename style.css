@@ -1,14 +1,32 @@
 body{
-    background-color:#041E40 ;
+    background-color:#0D0D0D;
+    
 }
 
 
 header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color:rgba(0,0,0,0.2);
     text-align: center;
-    height: 100px;
-    
 }
+  
+#encabezado{
+    padding:20px 40px;
+}
+
+#nav-bar p{
+    color: aliceblue;
+    display: inline-block;
+    font-size:30px;
+    padding-left: 25px;    
+    }
+
+
+
 .titulo-principal{
+    text-align: center;
     font-size:45px;
     padding:30px;
     
@@ -16,7 +34,7 @@ header{
 }
 
 main{
-    background-color:#218DA6;
+    background-color: #05DBF2;
     width: 940px;
     margin: 0 auto;
     padding: 60px;
@@ -33,20 +51,27 @@ p.texto-introduccion{
 }
 
 h2.especies{
-    font-size: 25px;
+    
 }
 
 .informacion li{
+    background-color:#0D0D0D;
+    color:white;
     display: inline-block;
-    width: 300px;
+    width: 290px;
+    padding: 5px;
     text-align: center;
     vertical-align:top;
-    padding: 5px;
+    margin-top: 10px;
 }
 
 .informacion img{
-    width: 300px;
+    width: 290px;
     height: 200px;
+}
+
+.elementos-margen{
+    margin-left:15px;
 }
 .subtitulos{
     font-size: 25px;
@@ -57,6 +82,3 @@ h2.especies{
     padding-top: 40px;
 }
 
-li{
-    background-color: aliceblue;
-}
