@@ -53,6 +53,7 @@ main{
     margin: 0 auto;
     padding: 60px; 
     min-width: 250px;
+    
 }
 
 .caja-principal{
@@ -78,13 +79,16 @@ main{
     margin-top: 60px;
     font-size: 30px;
     color: #0D0D0D;
+    font-weight: bold;
     text-align: center;
 }
 
 
 p.texto-introduccion{
     background-color: #56ACBF;
-    font-size:25px ;
+    color: whitesmoke;
+    line-height: 1.5;
+    font-size:22px ;
     margin: 60px 0;
     padding: 0 60px;
     border-radius: 3px;
@@ -92,33 +96,30 @@ p.texto-introduccion{
     
 }
 
-.informacion{
-    width: 
-}
 
 
 .informacion li{
-    
     color:black;
     display: inline-block;
-    width: 290px;
+    width: 320px;
     padding: 5px;
     text-align: center;
     vertical-align:top;
     margin-top: 20px;
-    border-radius: 3px;
-    
+    font-size:20px;
+    word-spacing: 1px;
+    line-height:1;
 }
 
 .informacion img{
-    width: 290px;
+    width: 320px;
     height: 200px;
 }
 
 
 
 .elementos-margen{
-    margin-left:15px;
+    margin-left:51px;
 }
 .subtitulos{
     font-size: 25px;
@@ -130,18 +131,24 @@ p.texto-introduccion{
     padding-top: 60px;
 }
 
-div > h3,h4, p{
-    color: #0D0D0D;
+div > h3,h4{
+    color:whitesmoke;
 }
 
 .buceo{
-    background-color: gray;
-    margin-top: 60px;
+    background-color: #56ACBF;
+    margin: 60px -60px;
+    padding: 0 60px;
     text-align: center;
-    font-size: 20px;
+}
+
+.buceo > p {
+    font-size: 22px;
+    line-height: 1.5;
 }
 
 .buceo-titulos{
     padding: 30px;
     font-weight: bold;
+    font-size: 22px;
 }
