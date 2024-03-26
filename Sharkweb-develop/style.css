@@ -1,5 +1,5 @@
 body{
-    background-color:#DFE6F3;
+    background-image: linear-gradient(to bottom, #004c75, #034068, #04345a, #05294d, #041e40);
     display: flex;
     flex-wrap: wrap;
     
@@ -47,8 +47,8 @@ nav{
 }
 
 main{
-    background-color:whitesmoke;
-    color: white;
+    background-color: white;
+    color:white;
     width: 1100px;
     margin: 0 auto;
     padding: 60px; 
@@ -75,10 +75,9 @@ main{
 }
 
 .especies{
-    background-color: antiquewhite;
     margin-top: 60px;
     font-size: 30px;
-    color: #0D0D0D;
+    color:black;
     font-weight: bold;
     text-align: center;
 }
@@ -109,6 +108,7 @@ p.texto-introduccion{
     font-size:20px;
     word-spacing: 1px;
     line-height:1;
+    border-radius: 5px;
 }
 
 .informacion img{
